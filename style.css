@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#141b3e;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    padding: 0 calc(20px - (100vw - 100%)) 0 0;
+    background-color:#101530;
+    display: flex;
+    justify-content: end;
+    align-items:center;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+.search{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.input{
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.loupe{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 10px;
+  z-index: 1;
+  color: #4f5b66;
+  cursor: pointer;
+}
+
+.submit{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.movie{
+    width: 200px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f295b;
+}
+
+.movie__poster-cover{
+    width: 200px;
+    height: 300px;
+    background-color:white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.movie__poster{  
+    height: 300px;   
+}
+
+.info{
+    width: 200px;
+    height: 65px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movie__title{
+    color: aliceblue;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.movie__year{
+    color:aliceblue;
+    font-size: 10px;
+}
+
+footer{
+    background-color: rgb(251, 242, 159);
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+footer img{
+    height: 30px;
+}
